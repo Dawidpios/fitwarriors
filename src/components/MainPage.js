@@ -10,7 +10,7 @@ const MainPage = () => {
 
     return ( <>
         <Routes>
-        <Route path="/fitwarriors/" element={<HomePage />}></Route>
+        <Route path="https://dawidpios.github.io/fitwarriors/" element={<HomePage />}></Route>
         <Route path="/calc" element={<Calc/>}></Route>
         <Route path="/food" element={<Food/>}></Route>
        
