@@ -8,7 +8,7 @@ import { FiXOctagon } from "react-icons/fi"
 
 
 const li = [
-  { name: "Strona Główna", path: "/" , icon: <BiHome className="Nav_bar-icon"/>},
+  { name: "Strona Główna", path: "/fitwarriors/" , icon: <BiHome className="Nav_bar-icon"/>},
   { name: "Oblicz zapotrzebowanie", path: "/calc", icon:<BiCookie className="Nav_bar-icon"/>},
   { name: "Przykładowe posiłki", path: "/food", icon:<BiRestaurant className="Nav_bar-icon"/>  },
 ];
