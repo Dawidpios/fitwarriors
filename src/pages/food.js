@@ -101,7 +101,6 @@ const Dishes = (props) =>(
         <h1 className="Dishes_heading-primary">Wylosuj fit przepis</h1>
         <section className="Dishes_section">
             <div className="Dishes_text">
-            {!props.foods ? <p className="Dishes_paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus obcaecati optio qui dolores. Saepe, ut iusto. Facere, perferendis enim amet exercitationem, libero at pariatur dolores optio reiciendis, quia illum placeat?</p> : null}
             <h2 className="Dishes_heading-second">{props.foods ? props.data[props.index].name : null}</h2>
             <h3 className="Dishes_heading-third">{props.foods ? `Ilość kalorii w 100g : ` + props.data[props.index].Kcal + ` kcal` : null}</h3>
             <ul className="Dishes_list">
