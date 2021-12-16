@@ -1,0 +1,57 @@
+.btn-about{
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background-color: transparent;
+    border: none;
+    color:$color-text-light;
+    text-shadow:  0 1px 3px $color-text-light;
+    font-weight: 200;
+    transition: 1s all;
+    position: absolute;
+    z-index: 21;
+    top:87%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+
+    @include respond(phone){
+        margin-top: 4rem;
+    }
+    &:hover{
+        cursor: pointer;
+        color:$color-btn-hover;
+        transform: translateX(-50%) scale(1.2);
+    }
+}
+
+
+
+
+
+.btn-calc{
+    margin-top:5rem;
+    padding:1.5rem;
+    &:not(:nth-child(1)){
+        margin-right:.5rem;
+    }
+}
+
+.btn-food{
+padding:1rem;
+margin-left:1.5rem;
+font-size: 2rem;
+border:none;
+transition: .5s all;
+background-size: 200%;
+background-image: linear-gradient(105deg, transparent 0%, transparent 10%, $color-primary-light 90%);
+width:55%;
+@include respond(phone){
+    display: inline-block;
+}
+&:hover{
+    transform: scale(1.1);
+    background-size: 100%;
+}
+    
+}

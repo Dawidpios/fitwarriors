@@ -1,0 +1,61 @@
+.header-primary{
+    font-size: 3rem;
+    font-weight: 300;
+    letter-spacing: 2px;
+    background-image: linear-gradient(to right, $color-primary-light, $color-primary-dark);
+    -webkit-background-clip: text;
+    color:transparent;
+    text-shadow:  0 1px 1.5px $color-black ;
+    padding:2rem;
+    @include respond(tab-port){
+        letter-spacing: 0px;
+        padding:.5rem;
+    text-align: center;
+        width: 100%;
+        font-size: 1.8rem;
+        font-weight: 700;
+    }
+    @include respond(phone){
+        letter-spacing: 0px;
+        padding:.5rem;
+        text-shadow: none;
+        width: 100%;
+        font-size: 1.6rem;
+        font-weight: 900;
+    }
+
+}
+
+.paragraph{
+    font-size: 1.3rem;
+font-weight: 300;
+color:$color-black;
+text-align:justify;
+@include respond(tab-port){
+    letter-spacing: 0px;
+    font-size: 1.5rem;
+    font-weight: 300;
+    color:black;
+    text-align: justify;
+    display: block;
+    width:95%;
+    margin:1rem;
+}
+@include respond(phone){
+    letter-spacing: 0px;
+    font-size: 1.2rem;
+    font-weight: 300;
+    color:black;
+    text-align: justify;
+    display: block;
+    width:100%;
+}
+}
+
+.heading-tertiary{
+    @include respond(phone){
+        display: inline-block;
+        font-size: 1.8rem;
+    }
+    
+}
