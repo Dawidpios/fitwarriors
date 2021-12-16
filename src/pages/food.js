@@ -144,7 +144,7 @@ draw(){
 }
 clear(){
     this.setState({
-        index: null,
+        foods: null,
     })
 }
     render(){
