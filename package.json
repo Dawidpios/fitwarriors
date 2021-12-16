@@ -1,8 +1,9 @@
-{
+{ "homepage": "https://dawidpios.github.io/fitwarriors/",
   "name": "fitwarriors",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "homepage": "https://dawidpios.github.io/fitwarriors/",
     "@testing-library/jest-dom": "^5.15.0",
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.8.3",
